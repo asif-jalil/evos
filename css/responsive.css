@@ -1,0 +1,808 @@
+/* XXL Device: 1920px */
+@media (min-width:1920px) {
+
+    .home-content p {
+        font-size: 48px;
+    }
+
+    .home-content h1 {
+        font-size: 120px;
+    }
+
+    .sec-pad-top {
+        padding-top: 140px;
+    }
+
+    .sec-pad-bottom {
+        padding-bottom: 140px;
+    }
+
+    .section-title span {
+        font-size: 16px;
+    }
+
+    .section-title h3 {
+        font-size: 70px;
+        line-height: 130px;
+    }
+
+    .about-content-wrapper .section-title h3 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .quality .section-title h3 {
+        font-size: 60px;
+        line-height: 130px;
+    }
+
+    .member-details h4 {
+        font-size: 36px;
+    }
+
+}
+
+/* XL Device: 1200px */
+@media (min-width:1200px) and (max-width:1919px) {}
+
+/* XL Device: 1200px to 1365px */
+@media (min-width:1200px) and (max-width:1365px) {
+    .home-content h1 {
+        font-size: 70px;
+    }
+
+    .ofcanvas-menu-items ul {
+        width: 52%;
+    }
+
+}
+
+/* LG Device: 992px */
+@media (min-width:992px) and (max-width:1199px) {
+
+    .ofcanvas-menu {
+        right: -34%;
+        width: 32%;
+    }
+
+    .ofcanvas-menu-items ul {
+        width: 52%;
+    }
+
+    .home {
+        height: 500px;
+    }
+
+    .home-author {
+        height: 500px;
+    }
+
+    .home-content {
+        height: 500px;
+    }
+
+    .home-content p {
+        font-size: 30px;
+    }
+
+    .home-content h1 {
+        font-size: 55px;
+    }
+
+    .home .shape-square {
+        top: 67% !important;
+    }
+
+    .about .shape-paper-plane {
+        right: -140px;
+        top: 110px;
+    }
+
+    .about .shape-paper-plane img {
+        width: 80%;
+    }
+
+    .single-exp {
+        padding: 50px 30px 30px 20px;
+    }
+
+    .portfolio-item:nth-child(2) .portfolio-box img {
+        height: 506px;
+    }
+
+}
+
+/* MD Device: 768px */
+@media (min-width:768px) and (max-width:991px) {
+
+    .header {
+        padding: 30px 50px;
+    }
+
+    .menu-trigger img {
+        width: 85%;
+    }
+
+    .sticky-state {
+        padding: 20px 50px;
+    }
+
+    .ofcanvas-menu {
+        right: -36%;
+        width: 35%;
+    }
+
+    .trigger-gir-detail h3 {
+        font-size: 26px;
+    }
+
+    .ofcanvas-menu-items {
+        margin: 24px 0;
+    }
+
+    .ofcanvas-menu-items ul {
+        width: 60%;
+    }
+
+    .ofcanvas-menu-items ul li {
+        font-size: 16px;
+    }
+
+    .home {
+        padding: 0 50px;
+        height: 500px;
+    }
+
+    .home-author {
+        height: 500px;
+    }
+
+    .home-content {
+        height: 500px;
+    }
+
+    .home-content p {
+        font-size: 28px;
+    }
+
+    .home-content h1 {
+        font-size: 44px;
+    }
+
+    .shape-triangle img {
+        width: 55%;
+    }
+
+    .shape-curved-line img {
+        width: 65%;
+    }
+
+    .shape-square img {
+        width: 70%;
+    }
+
+    .shape-circle img {
+        width: 90%;
+    }
+
+    .home .shape-curved-line {
+        left: 0% !important;
+        top: 43% !important;
+    }
+
+    .about-content-wrapper {
+        padding-left: 0;
+    }
+
+    .about-content-wrapper .section-title h3 {
+        font-size: 30px;
+        line-height: 30px;
+        margin: 10px 0 10px 0;
+    }
+
+    .about-content p {
+        margin-bottom: 10px;
+    }
+
+    .about-content p span {
+        font-size: 14px;
+    }
+
+    .about-content-btn-group {
+        margin-top: 15px;
+    }
+
+    .button {
+        height: 50px;
+        width: 140px;
+        line-height: 50px;
+    }
+
+    .skill {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #branding,
+    #design {
+        margin-bottom: 120px;
+    }
+
+    .quality .shape-triangle {
+        left: 13%;
+        bottom: -3%;
+    }
+
+    .single-exp {
+        padding: 50px 30px 30px 20px;
+    }
+
+    .portfolio-item:nth-child(2) .portfolio-box img {
+        height: initial;
+    }
+
+    .member-social-profile ul li {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+    }
+
+    .member-details h4 {
+        font-size: 26px;
+    }
+
+    .testimonial-img {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .single-testimonial {
+        padding-bottom: 30px;
+    }
+
+    .single-testimonial .review .category span {
+        font-size: 16px;
+    }
+
+    .single-testimonial h4 {
+        font-size: 26px;
+    }
+
+    .testimonial-author {
+        margin-top: 22px;
+    }
+
+    .news-content-wrapper {
+        padding: 15px 5px;
+    }
+
+    .news-content h4 {
+        font-size: 20px;
+        margin: 8px 0 8px 0;
+    }
+
+    .newsletter h5 {
+        font-size: 26px;
+    }
+
+    .newsletter-field input {
+        width: 200px;
+    }
+
+    .newsletter-field .button {
+        width: 120px;
+    }
+
+}
+
+/* Extra Samll Device. */
+@media (max-width:767px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .header {
+        padding: 15px 20px;
+    }
+
+    .logo {
+        padding-top: 1px;
+    }
+
+    .logo img {
+        width: 55px;
+    }
+
+    .menu-trigger img {
+        width: 25px;
+    }
+
+    .sticky-state {
+        padding: 10px 20px;
+    }
+
+    .sticky-state .logo img {
+        width: 50px;
+    }
+
+    .sticky-state .menu-trigger img {
+        width: 20px;
+    }
+
+    .ofcanvas-menu {
+        right: -67%;
+        width: 65%;
+    }
+
+    .trigger-girl {
+        margin: 35px 30px 10px 30px;
+    }
+
+    .trigger-gir-detail h3 {
+        font-size: 24px;
+    }
+
+    .ofcanvas-menu-items {
+        margin: 24px 0;
+    }
+
+    .ofcanvas-menu-items ul {
+        width: 65%;
+        margin-right: 10px;
+    }
+
+    .ofcanvas-menu-items ul li {
+        font-size: 14px;
+    }
+
+    .ofcanvas-menu-items ul li span {
+        margin-right: 0;
+    }
+
+    .ofcanvas-menu-items ul li:hover span,
+    .ofcanvas-menu-items ul li.active span {
+        margin-right: 10px;
+    }
+
+    .menu-close {
+        font-size: 20px;
+    }
+
+    .ofcanvas-social ul li {
+        font-size: 14px;
+        height: 28px;
+        width: 28px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .ofcanvas-social {
+        margin-bottom: 20px;
+    }
+
+    .home {
+        padding: 0 20px;
+        overflow: hidden;
+    }
+
+    .home-content p {
+        font-size: 22px;
+    }
+
+    .home-content h1 {
+        font-size: 50px;
+    }
+
+    .shape-triangle img {
+        width: 55px;
+    }
+
+    .shape-curved-line img {
+        width: 55px;
+    }
+
+    .shape-square img {
+        width: 50px;
+    }
+
+    .shape-circle img {
+        width: 50px;
+    }
+
+    .home .shape-triangle {
+        left: 33% !important;
+        top: 11% !important;
+    }
+
+    .home .shape-circle {
+        left: 65% !important;
+        top: 70% !important;
+    }
+
+    .sec-pad-top {
+        padding-top: 70px;
+    }
+
+    .sec-pad-bottom {
+        padding-bottom: 70px;
+    }
+
+    .section-title h3 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .contact-info {
+        margin-top: 60px;
+    }
+
+    .single-contact-info {
+        text-align: center;
+    }
+
+    .contact-info-icon:before {
+        height: 80px;
+        width: 80px;
+    }
+
+    .contact-info-icon i {
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+        font-size: 25px;
+    }
+
+    .contact-info-detail h4 {
+        font-size: 16px;
+    }
+
+    .contact-info-detail span {
+        padding: 15px 0 10px 0;
+        font-size: 13px;
+    }
+
+    .about .divider {
+        margin: 20px 0 60px 0;
+    }
+
+    .about-img img {
+        left: 15px !important;
+    }
+
+    .about-content-wrapper {
+        padding-left: 0;
+        margin-top: 50px;
+    }
+
+    .about-content-wrapper .section-title h3 {
+        font-size: 36px;
+        line-height: 40px;
+        margin: 10px 0 15px 0;
+    }
+
+    .about-content p span {
+        font-size: 16px;
+    }
+
+    .about-content-btn-group {
+        text-align: center;
+    }
+
+    .button {
+        height: 45px;
+        width: 120px;
+        line-height: 42px;
+        font-size: 13px;
+    }
+
+    .quality .section-title h3 {
+        font-size: 35px;
+        line-height: 60px;
+    }
+
+    .skill {
+        width: 160px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .skill canvas {
+        height: 160px !important;
+        width: 160px !important;
+    }
+
+    .skill span {
+        font-size: 40px;
+    }
+
+    #design {
+        margin-bottom: 80px;
+    }
+
+    .education {
+        margin-left: 15px;
+    }
+
+    .edu-item .edu-yr {
+        position: unset;
+        text-align: unset;
+        margin-bottom: 20px;
+    }
+
+    .quality .shape-triangle {
+        bottom: -1%;
+    }
+
+    .single-exp {
+        padding: 30px 20px 20px 20px;
+        margin-top: 30px;
+    }
+
+    .exp-icon {
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+        font-size: 25px;
+    }
+
+    .single-exp h4 {
+        font-size: 24px;
+        padding: 20px 0 0px 0
+    }
+
+    .single-exp p {
+        padding-top: 10px;
+    }
+
+    .portfolio-category ul li {
+        margin: 7px 10px;
+        font-size: 13px;
+    }
+
+    .portfolio-item:nth-child(2) .portfolio-box img {
+        height: unset;
+    }
+
+    .service .section-title {
+        text-align: center;
+    }
+
+    .member-details h4 {
+        font-size: 24px;
+    }
+
+    .single-testimonial {
+        margin: 30px 0;
+    }
+
+    .single-testimonial .review .category span {
+        font-size: 16px;
+    }
+
+    .single-testimonial h4 {
+        font-size: 24px;
+    }
+
+    .testimonial-author {
+        margin-top: 26px;
+    }
+
+    .author-img img {
+        width: 50px;
+    }
+
+    .testimonial-author .author-details span {
+        letter-spacing: 1px;
+        font-size: 13px;
+    }
+
+    .testimonial-author .author-details h5 {
+        font-size: 18px;
+    }
+
+    .contact .shape-square {
+        top: 5%;
+    }
+
+    .contact-field {
+        padding: 17px 30px 17px 55px;
+    }
+
+    .contact-field i {
+        top: 21px;
+        left: 23px;
+    }
+
+    .contact-field textarea {
+        height: 120px;
+    }
+
+    .divider {
+        margin: 70px 0 70px 0;
+    }
+
+    .divider2 {
+        margin: 70px 0 0 0;
+    }
+
+    .single-sponsor img {
+        width: 110px;
+        margin-left: 10%;
+    }
+
+    .blog .shape-triangle {
+        top: 2%;
+    }
+
+    .news-content-wrapper {
+        padding: 15px 15px;
+    }
+
+    .news-content h4 {
+        font-size: 22px;
+        margin: 8px 0 8px 0;
+    }
+
+    .pre-footer {
+        padding: 30px 0;
+    }
+
+    .pre-footer .logo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .pre-footer .logo img {
+        width: 70px;
+    }
+
+    .pre-footer ul {
+        text-align: center;
+    }
+
+    .pre-footer ul li {
+        margin: 7px 10px;
+    }
+
+    footer {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .newsletter {
+        margin-bottom: 30px;
+        float: unset;
+    }
+
+    .newsletter h5 {
+        font-size: 26px;
+    }
+
+    .newsletter-field input {
+        width: 250px;
+    }
+
+    .newsletter-field .button {
+        width: 140px;
+        margin-top: 15px;
+    }
+
+    .footer-social ul li {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+    }
+
+    .footer-social ul li.active {
+        height: 40px;
+        width: 110px;
+        line-height: 40px;
+    }
+
+    .footer-social ul li.active span {
+        font-size: 13px;
+    }
+
+}
+
+/* SM Device: 550px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    .ofcanvas-menu {
+        right: -50%;
+        width: 46%;
+    }
+
+    .ofcanvas-menu-items ul {
+        width: 52%;
+    }
+
+    .home-author div {
+        position: absolute;
+        left: unset;
+        right: -10%;
+        bottom: 100%;
+        z-index: -1;
+        width: 60%;
+    }
+
+    .shape-triangle img {
+        width: 75px;
+    }
+
+    .home .shape-triangle {
+        left: 30% !important;
+        top: 5% !important;
+    }
+
+    .home .shape-curved-line {
+        left: 0 !important;
+        top: 21% !important;
+    }
+
+    .home .shape-square {
+        left: 21% !important;
+        top: 39% !important;
+    }
+
+    .home .shape-circle {
+        left: 93% !important;
+        top: 29% !important;
+    }
+
+    .contact-info-detail h4 {
+        font-size: 20px;
+    }
+
+
+
+    .education {
+        margin-left: 175px;
+    }
+
+    .edu-item .edu-yr {
+        position: absolute;
+        left: -205px;
+        top: -4px;
+        text-align: right;
+    }
+
+    .quality .shape-triangle {
+        bottom: -2%;
+    }
+
+    .portfolio-detail h5 {
+        font-size: 16px;
+    }
+
+    .portfolio-detail h5:before {
+        left: -25px;
+        width: 15px;
+    }
+
+    .portfolio-detail span {
+        font-size: 13px;
+        line-height: 1;
+    }
+
+    .portfolio-box:hover .portfolio-detail h5 {
+        left: 65px;
+    }
+
+    .portfolio-box:hover .portfolio-detail span {
+        left: 68px;
+        bottom: 55px;
+    }
+
+    .service .section-title {
+        text-align: left;
+    }
+
+    .member-social-profile ul li {
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+    }
+
+}

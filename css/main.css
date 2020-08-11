@@ -1,0 +1,1374 @@
+/* =========================================================
+Template Name: Evos HTML 5 Template
+Template URI: https://asifjalil.xyz/water-drop
+Description: Evos HTML 5 Template
+Author: Asif Jalil
+Author URI: https://asifjalil.xyz
+Version: 1.0
+========================================================= */
+
+/* CSS Index
+-----------------------------------------------------
+01. Template Default CSS
+02. header css
+03. home CSS
+04. about CSS
+05. quality CSS
+06. experience CSS
+07. portfolio CSS
+08. service CSS
+09. team CSS
+10. testimonial CSS
+11. contact CSS
+12. sponsor CSS
+13. blog CSS
+14. footer CSS
+
+*/
+
+/* ======================================================
+Google Fonts
+====================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Rubik:wght@400;500&display=swap');
+
+/* ...............................................
+01. Template Default CSS
+............................................... */
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  overflow-x: hidden;
+}
+
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none;
+  text-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lilita One', cursive;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ==================================================
+Author's Custom Styles
+================================================== */
+
+/* ...............................................
+02. header css
+............................................... */
+.header {
+  padding: 50px 100px;
+  transition: 0.5s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 777;
+}
+
+.logo {
+  padding-top: 7px;
+}
+
+.menu-trigger {
+  float: right;
+  cursor: pointer;
+}
+
+.sticky-state {
+  padding: 20px 100px;
+  background: #6928d9e8;
+}
+
+.sticky-state .menu-trigger img {
+  width: 65%;
+}
+
+.sticky-state .logo img {
+  width: 60px;
+}
+
+.ofcanvas-menu-overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 888;
+  transition: 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.ofcanvas-menu-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.ofcanvas-menu {
+  position: fixed;
+  right: -30%;
+  top: 0;
+  width: 26%;
+  height: 100%;
+  background: #6928d9;
+  z-index: 999;
+  overflow-y: scroll;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.ofcanvas-menu.active {
+  right: 0;
+  left: inherit;
+  opacity: 1;
+}
+
+.menu-close {
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  cursor: pointer;
+}
+
+.trigger-girl {
+  margin: 40px 40px 10px 40px;
+}
+
+.trigger-girl img {
+  border: 10px solid #000;
+}
+
+.trigger-gir-detail {
+  color: #fff;
+  text-align: center;
+}
+
+.trigger-gir-detail h3 {
+  font-size: 30px;
+}
+
+.trigger-gir-detail p {
+  line-height: 12px;
+}
+
+.ofcanvas-menu-items {
+  margin: 30px 0;
+}
+
+.ofcanvas-menu-items ul {
+  width: 50%;
+}
+
+.ofcanvas-menu-items ul li {
+  display: block;
+  text-align: right;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.ofcanvas-menu-items ul li span {
+  color: #fff;
+  text-transform: capitalize;
+  margin-right: 10px;
+  transition: 0.4s;
+}
+
+.ofcanvas-menu-items ul li:hover span,
+.ofcanvas-menu-items ul li.active span {
+  color: #44ebff;
+  margin-right: 25px;
+}
+
+.ofcanvas-menu-items ul li i {
+  color: #44ebff;
+  width: 30px;
+  background: transparent;
+}
+
+.ofcanvas-social {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.ofcanvas-social ul li {
+  font-size: 15px;
+  margin: 0 3px;
+  height: 37px;
+  width: 37px;
+  background: #fff;
+  line-height: 35px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.ofcanvas-social ul li:hover {
+  color: #fff;
+  background: #44ebff;
+}
+
+/* ...............................................
+03. home CSS
+............................................... */
+
+.home {
+  background: #6928d9 url(../img/home/home-bg.jpg) no-repeat center;
+  background-size: cover;
+  padding: 0 100px;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.home-content {
+  color: #fff;
+  height: 100vh;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.home-content p {
+  font-size: 34px;
+}
+
+.home-content p span {
+  border-bottom: 2px solid #fff;
+}
+
+.home-content h1 {
+  font-size: 80px;
+  line-height: 1;
+  text-transform: capitalize;
+}
+
+.home-author {
+  position: relative;
+  height: 100vh;
+}
+
+.home-author div {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.home .shape-triangle {
+  left: 33% !important;
+  top: 4% !important;
+}
+
+.home .shape-curved-line {
+  left: -5% !important;
+  top: 40% !important;
+}
+
+.home .shape-square {
+  left: 10% !important;
+  top: 75% !important;
+}
+
+.home .shape-circle {
+  left: 88% !important;
+  top: 40% !important;
+}
+
+/* ...............................................
+04. about CSS
+............................................... */
+.sec-pad-top {
+  padding-top: 100px;
+}
+
+.sec-pad-bottom {
+  padding-bottom: 100px;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.section-title span {
+  color: #6928d9;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+
+.section-title h3 {
+  font-size: 55px;
+  color: #060630;
+  text-transform: capitalize;
+  line-height: 80px;
+}
+
+.about {
+  position: relative;
+}
+
+.shape {
+  position: absolute;
+}
+
+.about .shape-paper-plane {
+  right: -20px;
+  top: 120px;
+}
+
+.contact-info {
+  margin-top: 80px;
+}
+
+.single-contact-info {
+  margin-bottom: 40px;
+}
+
+.contact-info-icon {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+
+.contact-info-icon i {
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  text-align: center;
+  background: #6928d9;
+  color: #fff;
+  font-size: 30px;
+  box-shadow: 0 8px 16px rgba(105, 40, 217, 0.2);
+}
+
+.contact-info-icon:before {
+  content: '';
+  position: absolute;
+  top: -22px;
+  left: -22px;
+  height: 100px;
+  width: 100px;
+  background: #f4edff;
+  z-index: -1;
+}
+
+.contact-info-detail span {
+  color: #9498a9;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  display: inline-block;
+  padding: 35px 0 14px 0;
+}
+
+.contact-info-detail h4 {
+  color: #060630;
+  font-size: 24px;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background: #dfdfdf;
+  margin: 100px 0 100px 0;
+}
+
+.about .divider {
+  margin: 60px 0 100px 0;
+
+}
+
+.about-img {
+  padding-right: 25px;
+  position: relative;
+  z-index: 1;
+}
+
+.about-img img {
+  z-index: -1;
+}
+
+.about-img:before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  height: 100%;
+  width: 90%;
+  background: url(../img/me.jpg);
+  filter: blur(15px);
+  z-index: -1;
+}
+
+.about-img .shape-triangle {
+  left: 55% !important;
+  top: -8% !important;
+}
+
+.about-img .shape-curved-line {
+  left: -50px !important;
+  top: 350px !important;
+}
+
+.about-img .shape-square {
+  right: -5%;
+  top: 77% !important;
+  left: initial !important;
+}
+
+.about-content-wrapper {
+  padding-left: 40px;
+}
+
+.about-content-wrapper .section-title {
+  text-align: left;
+}
+
+.about-content-wrapper .section-title span {
+  color: #9498a9;
+}
+
+.about-content-wrapper .section-title h3 {
+  font-size: 50px;
+  line-height: 50px;
+  margin: 15px 0 25px 0;
+}
+
+.about-content p span {
+  color: #6928d9;
+  font-size: 20px;
+}
+
+.about-content p {
+  color: #9498a9;
+  line-height: 26px;
+}
+
+.about-content-btn-group {
+  margin-top: 30px;
+}
+
+.about-content a {
+  margin-right: 15px;
+}
+
+.button {
+  font-weight: 500;
+  background: none;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  height: 55px;
+  width: 170px;
+  margin-bottom: 20px;
+  line-height: 53px;
+  text-align: center;
+  display: inline-block;
+}
+
+.main-btn {
+  border: 2px solid #6928d9;
+  color: #fff;
+  transition: 0.3s;
+  position: relative;
+  z-index: 1;
+}
+
+.main-btn:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #6928d9;
+  transition: 0.3s;
+  z-index: -1;
+}
+
+.main-btn:hover {
+  color: #060630;
+}
+
+.main-btn:hover:before {
+  width: 0;
+}
+
+.alt-btn {
+  border: 2px solid #44ebff;
+  transition: 0.3s;
+  position: relative;
+}
+
+.alt-btn:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background: #44ebff;
+  transition: 0.3s;
+  z-index: -1;
+}
+
+.alt-btn:hover:before {
+  width: 100%;
+}
+
+/* ...............................................
+05. quality CSS
+............................................... */
+.quality {
+  background: #060630;
+  position: relative;
+}
+
+.quality .section-title {
+  text-align: left;
+}
+
+.quality .section-title span {
+  color: #00ffa2;
+}
+
+.quality .section-title h3 {
+  color: #fff;
+  font-size: 45px;
+  line-height: 70px;
+  margin-bottom: 60px;
+}
+
+.quality.sec-pad-bottom {
+  padding-bottom: 60px;
+}
+
+.quality .shape-triangle {
+  left: 26%;
+  bottom: -8%;
+  z-index: -1;
+}
+
+.skill {
+  position: relative;
+  margin-bottom: 40px;
+  width: 200px;
+}
+
+.skill span {
+  position: absolute;
+  left: 50%;
+  top: 23%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-family: lilita one;
+  font-size: 55px;
+}
+
+.skill p {
+  position: absolute;
+  top: 58%;
+  left: 0;
+  right: 0;
+  color: #aaaabf;
+  font-weight: 500;
+  text-align: center;
+}
+
+.education {
+  color: #fff;
+  margin-left: 175px;
+  padding-left: 35px;
+  position: relative;
+}
+
+.education:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background: #20205f;
+}
+
+.edu-item {
+  position: relative;
+}
+
+.edu-item:before {
+  content: '';
+  position: absolute;
+  left: -40px;
+  top: 7px;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.edu-item:nth-child(1):before {
+  border: 3.4px solid #1573ff;
+}
+
+.edu-item:nth-child(2):before {
+  border: 3.4px solid #00ffa2;
+}
+
+.edu-item:nth-child(3):before {
+  border: 3px solid #baff26;
+}
+
+.edu-item:last-child {
+  padding-bottom: 20px;
+}
+
+.edu-item:last-child:after {
+  content: '+';
+  position: absolute;
+  bottom: 0;
+  left: -45px;
+  background: #1573ff;
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  line-height: 23px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.edu-item .edu-yr {
+  position: absolute;
+  left: -205px;
+  top: -4px;
+  text-align: right;
+}
+
+.edu-item .edu-yr span {
+  font-family: lilita one;
+  font-size: 24px;
+}
+
+.edu-item:nth-child(1) .edu-yr span {
+  color: #1573ff;
+}
+
+.edu-item:nth-child(2) .edu-yr span {
+  color: #00ffa2;
+}
+
+.edu-item:nth-child(3) .edu-yr span {
+  color: #baff26;
+}
+
+.edu-item .edu-yr p {
+  color: #aaaabf;
+  text-transform: capitalize;
+  padding-top: 5px;
+}
+
+.edu-detail h4 {
+  font-size: 24px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.edu-detail p {
+  color: #aaaabf;
+  padding: 10px 0 20px 0;
+}
+
+/* ...............................................
+06. experience CSS
+............................................... */
+.experience {
+  position: relative;
+}
+
+.experience .shape-square {
+  left: 10%;
+  bottom: -45px;
+}
+
+.experience .shape-curved-line {
+  right: -35px;
+  bottom: 30%;
+}
+
+.single-exp {
+  background-image: url(../img/exp-bg.jpg);
+  padding: 50px 40px 30px 40px;
+  margin-top: 60px;
+  position: relative;
+}
+
+.single-exp:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 80px 80px 0 0;
+  border-color: transparent transparent transparent transparent;
+  transition: 0.3s;
+  z-index: -1;
+}
+
+.single-exp.active:before {
+  border-style: solid;
+  border-width: 80px 80px 0 0;
+  border-color: #00ffa2 transparent transparent transparent;
+  transition: 0.3s;
+  top: -8px;
+  left: -8px;
+}
+
+.single-exp:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 80px 80px;
+  border-color: transparent transparent transparent transparent;
+  transition: 0.3s;
+  z-index: -1;
+}
+
+.single-exp.active:after {
+  bottom: -8px;
+  right: -8px;
+  border-style: solid;
+  border-width: 0 0 80px 80px;
+  border-color: transparent transparent #1573ff transparent;
+}
+
+.exp-icon {
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 30px;
+  color: #6928d9;
+  background: #fff;
+  position: relative;
+}
+
+.exp-icon:before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 16px;
+  height: 7px;
+  width: 7px;
+  background: #00ffa2;
+}
+
+.exp-icon:after {
+  content: '';
+  position: absolute;
+  bottom: 12px;
+  right: -3px;
+  height: 7px;
+  width: 7px;
+  background: #baff26;
+}
+
+.single-exp h4 {
+  font-size: 30px;
+  color: #060630;
+  padding: 30px 0 10px 0;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+.single-exp:hover h4,
+.single-exp.active h4 {
+  color: #6928d9;
+}
+
+.single-exp span {
+  color: #aaaabf;
+  font-size: 16px;
+}
+
+.single-exp p {
+  color: #aaaabf;
+  padding-top: 20px;
+}
+
+/* ...............................................
+07. portfolio CSS
+............................................... */
+.portfolio {
+  background: #fafbff;
+}
+
+.portfolio-category {
+  padding: 25px 0 40px 0;
+  text-align: center;
+}
+
+.portfolio-category ul li {
+  margin: 0 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #9498a9;
+  border-bottom: 2px solid #c5c8d2;
+  padding-bottom: 5px;
+  transition: 0.3s;
+}
+
+.portfolio-category ul li:hover,
+.portfolio-category ul li.active {
+  color: #6928d9;
+  border-bottom: 2px solid #6928d9;
+}
+
+.portfolio-item {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.portfolio-item:nth-child(2) .portfolio-box img {
+  height: 605px;
+}
+
+.portfolio-box {
+  position: relative;
+}
+
+.portfolio-box img {
+  width: 100%;
+}
+
+.portfolio-box:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #060630eb;
+  border: 0px solid transparent;
+  transition: 0.4s;
+  opacity: 0;
+  z-index: 1;
+}
+
+.portfolio-box:hover:before {
+  border: 10px solid #E2E2E2;
+  opacity: 1;
+}
+
+.portfolio-detail {
+  position: absolute;
+  width: 95%;
+  color: #fff;
+  z-index: 2;
+  transition: 0.4s;
+  opacity: 0;
+}
+
+.portfolio-box:hover .portfolio-detail {
+  opacity: 1;
+}
+
+.portfolio-detail h5 {
+  position: absolute;
+  left: 120px;
+  bottom: 110px;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+
+.portfolio-detail h5:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -35px;
+  height: 2px;
+  width: 25px;
+  background: #fff;
+}
+
+.portfolio-box:hover .portfolio-detail h5 {
+  left: 85px;
+  bottom: 70px;
+}
+
+.portfolio-detail span {
+  position: absolute;
+  left: 40px;
+  bottom: 50px;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+  transition: 0.4s;
+}
+
+.portfolio-box:hover .portfolio-detail span {
+  left: 88px;
+  bottom: 50px;
+}
+
+/* ...............................................
+08. service CSS
+............................................... */
+.service {
+  background: #060630;
+}
+
+.service .section-title {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.service .section-title span {
+  color: #00ffa2;
+}
+
+.service .section-title h3 {
+  color: #fff;
+}
+
+.service .main-btn:hover {
+  color: #fff;
+}
+
+.service-item {
+  margin-top: 30px;
+}
+
+.service-item h4 {
+  color: #fff;
+  font-size: 32px;
+  text-transform: capitalize;
+  padding: 20px 0 10px 0;
+}
+
+.service-item p {
+  color: #aaaabf;
+}
+
+/* ...............................................
+09. team CSS
+............................................... */
+.team {
+  background: url(../img/team/team-bg.png) center no-repeat;
+  background-size: cover;
+}
+
+.team-member {
+  margin-top: 50px;
+}
+
+.member-img {
+  position: relative;
+}
+
+.member-img img {
+  width: 100%;
+}
+
+.member-social-profile {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  transform: translateY(100%);
+  transition: 0.4s;
+  opacity: 0;
+}
+
+.member-social-profile.active {
+  opacity: 1;
+  transform: translateY(50%);
+}
+
+.member-social-profile ul li {
+  color: #9498a9;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #fff;
+  margin: 0 2.5px;
+  transition: 0.4s;
+}
+
+.member-social-profile ul li.active {
+  background: #6928d9;
+  color: #fff;
+}
+
+.member-details {
+  margin: 30px 0 0 20px;
+}
+
+.member-details h4 {
+  font-size: 30px;
+  color: #060630;
+}
+
+.member-details span {
+  color: #6928d9;
+  text-transform: uppercase;
+}
+
+/* ...............................................
+10. testimonial CSS
+............................................... */
+.testimonial {
+  background: #6928d9;
+  position: relative;
+  padding-top: 28px;
+}
+
+.testimonial:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: url(../img/testimonial/testimonial-bg.png) center no-repeat;
+  background-size: cover;
+}
+
+.single-testimonial .review {
+  margin-bottom: 22px;
+}
+
+.single-testimonial .review .rating {
+  color: #fff000;
+}
+
+.single-testimonial .review .category span {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.single-testimonial h4 {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.single-testimonial p {
+  color: #ddd;
+}
+
+.testimonial-author {
+  margin-top: 34px;
+}
+
+.testimonial-author .author-details {
+  margin: 5px 0 0 20px;
+}
+
+.testimonial-author .author-details h5 {
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.testimonial-author .author-details span {
+  color: #eaff00;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* ...............................................
+11. contact CSS
+............................................... */
+.contact {
+  position: relative;
+}
+
+.contact .shape-curved-line {
+  left: 5%;
+  bottom: 0;
+}
+
+.contact .shape-square {
+  right: 10%;
+  top: 10%;
+}
+
+.contact-field {
+  width: 100%;
+  border: 2px solid #eae8ff;
+  margin-top: 30px;
+  padding: 20px 80px;
+  position: relative;
+}
+
+.contact-field i {
+  position: absolute;
+  top: 24px;
+  left: 40px;
+  color: #6928d9;
+}
+
+.contact-field input,
+.contact-field textarea {
+  border: none;
+  outline: none;
+  color: #bebeca;
+  font-size: 13px;
+  width: 100%;
+  resize: none;
+}
+
+.contact-field input::placeholder,
+.contact-field textarea::placeholder {
+  color: #bebeca;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.contact-field textarea {
+  height: 180px;
+}
+
+.contact button {
+  position: relative;
+  left: 50%;
+  top: 30px;
+  transform: translateX(-50%);
+}
+
+/* ...............................................
+12. sponsor CSS
+............................................... */
+.single-sponsor a img {
+  filter: opacity(0.25);
+  transition: 0.2s;
+}
+
+.single-sponsor a img:hover {
+  filter: opacity(1);
+}
+
+.divider2 {
+  height: 1px;
+  width: 100%;
+  background: #dfdfdf;
+  margin: 100px 0 0 0;
+}
+
+/* ...............................................
+13. blog CSS
+............................................... */
+.blog {
+  position: relative;
+}
+
+.blog .shape-triangle {
+  top: 5%;
+  right: 5%;
+}
+
+.single-news {
+  margin-top: 30px;
+}
+
+.news-thumb {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.news-thumb img {
+  transition: 0.3s;
+  width: 100%;
+}
+
+.single-news:hover .news-thumb img {
+  transform: scale(1.2) rotate(-4deg);
+}
+
+.news-thumb:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  z-index: 1;
+  transition: 0.3s;
+}
+
+.single-news:hover .news-thumb:before {
+  opacity: 1;
+}
+
+.news-content-wrapper {
+  padding: 30px 20px;
+}
+
+.news-meta {
+  color: #9498a9;
+}
+
+.news-meta span {
+  margin-right: 20px;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.news-meta span i {
+  margin-right: 5px;
+}
+
+.news-content h4 {
+  color: #060630;
+  font-size: 26px;
+  margin: 16px 0 20px 0;
+}
+
+.news-content p {
+  color: #9498a9;
+}
+
+/* ...............................................
+14. footer CSS
+............................................... */
+.pre-footer {
+  background: #6928d9;
+  padding: 50px 0;
+}
+
+
+.pre-footer ul li {
+  margin: 0 20px;
+  font-size: 15px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+footer {
+  background: #5c20c3;
+  padding: 60px 0;
+}
+
+.footer-social ul li {
+
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  border: 2px solid #8d63d5;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.footer-social ul li span {
+  font-size: 0;
+  transition: 0.5s;
+  width: 0;
+}
+
+.footer-social ul li.active {
+  background: #6a29d9;
+  height: 50px;
+  width: 130px;
+  line-height: 49px;
+  border: 2px solid #6a29d9;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.footer-social ul li.active span {
+  font-size: 14px;
+  width: 100%;
+}
+
+.footer-social ul li.active i {
+  margin-right: 5px;
+}
+
+p.copyright {
+  margin-top: 30px;
+  color: #fff;
+}
+
+.newsletter {
+  float: right;
+}
+
+.newsletter h5 {
+  font-size: 30px;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 13px;
+}
+
+.newsletter-field input {
+  outline: none;
+  border: none;
+  width: 270px;
+  padding: 13px 25px;
+  color: #79879d;
+  font-size: 13px;
+}
+
+.newsletter-field input::placeholder {
+  color: #79879d;
+  font-size: 13px;
+}
+
+.newsletter-field .button {
+  padding: 12px 0;
+  margin-left: -5px;
+  height: 47px;
+  line-height: 0;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.newsletter-field .button i {
+  margin-right: 5px;
+}
